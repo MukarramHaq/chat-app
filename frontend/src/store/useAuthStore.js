@@ -9,7 +9,7 @@ const useAuthStore = create((set) => ({
     authUser: null, // stores authenticated users data if user is authenticated
     // boolean flags to indicate the status of various authentication-related processes
     isSigningUp: false,
-    isLoggingIng: false,
+    isLoggingIn: false,
     isUpdatingProfile: false,
 
     // If we refresh our page, we would for a quick second would like to know if the user is authenticated or not
