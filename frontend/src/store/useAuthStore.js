@@ -12,6 +12,7 @@ const useAuthStore = create((set) => ({
     isSigningUp: false,
     isLoggingIn: false,
     isUpdatingProfile: false,
+    onlineUsers: [],
 
     // If we refresh our page, we would for a quick second would like to know if the user is authenticated or not
     // while its checking we show the loading animation inthe middle of the screen.
